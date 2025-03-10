@@ -21,7 +21,7 @@ A professional-grade hardware monitoring and analysis tool built with Python and
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Tyler1201623/Hardware-Analyzer-Pro>
 cd hardware-analyzer-pro
 ```
 
