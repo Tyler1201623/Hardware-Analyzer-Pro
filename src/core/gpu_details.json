@@ -1,0 +1,12 @@
+{
+    "gpus": [
+        {
+            "name": "NVIDIA GeForce RTX 4070",
+            "memory_total": "Unknown"
+        },
+        {
+            "name": "NVIDIA GeForce RTX 4070",
+            "memory_total": "Unknown"
+        }
+    ]
+}

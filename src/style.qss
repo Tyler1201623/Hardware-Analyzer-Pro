@@ -1,0 +1,148 @@
+/* Base Theme */
+QMainWindow {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+}
+
+/* Tab Widget */
+QTabWidget::pane {
+    border: 1px solid #333333;
+    background-color: #252526;
+}
+
+QTabBar::tab {
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    padding: 8px 20px;
+    border: none;
+}
+
+QTabBar::tab:selected {
+    background-color: #007ACC;
+}
+
+/* Text Areas */
+QTextEdit {
+    background-color: #252526;
+    border: 1px solid #333333;
+    color: #FFFFFF;
+    font-family: "Consolas";
+    padding: 5px;
+}
+
+/* Progress Bars */
+QProgressBar {
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background-color: #252526;
+    text-align: center;
+    color: #FFFFFF;
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: #007ACC;
+    border-radius: 3px;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #0066cc;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    min-width: 80px;
+}
+
+QPushButton:hover {
+    background-color: #0052a3;
+}
+
+QPushButton:pressed {
+    background-color: #004080;
+}
+
+/* Labels */
+QLabel {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+/* Group Boxes */
+QGroupBox {
+    border: 1px solid #333333;
+    border-radius: 4px;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    color: #FFFFFF;
+}
+
+QGroupBox::title {
+    color: #FFFFFF;
+    subcontrol-origin: margin;
+    left: 10px;
+    padding: 0 3px;
+}
+
+/* Combo Boxes */
+QComboBox {
+    background-color: #252526;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 5px;
+    color: #FFFFFF;
+    min-width: 100px;
+}
+
+QComboBox::drop-down {
+    border: none;
+}
+
+QComboBox::down-arrow {
+    image: url(down_arrow.png);
+    width: 12px;
+    height: 12px;
+}
+
+/* Scroll Areas */
+QScrollArea {
+    background-color: #252526;
+    border: 1px solid #333333;
+}
+
+/* Status Bar */
+QStatusBar {
+    background-color: #007ACC;
+    color: #FFFFFF;
+    padding: 2px;
+}
+
+/* Tooltips */
+QToolTip {
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    border: 1px solid #333333;
+    padding: 5px;
+}
+
+/* Custom Classes */
+.info-card {
+    background-color: #252526;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.warning {
+    color: #FFA500;
+}
+
+.error {
+    color: #FF0000;
+}
+
+.success {
+    color: #00FF00;
+}

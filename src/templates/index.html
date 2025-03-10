@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hardware Analyzer Pro</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <script defer src="../static/main.js"></script>
+</head><body>
+    <div class="container">
+        <header>
+            <h1>Hardware Analyzer Pro</h1>
+            <nav>
+                <button id="hardware-btn" class="nav-btn active">Hardware</button>
+                <button id="network-btn" class="nav-btn">Network</button>
+                <button id="monitoring-btn" class="nav-btn">Monitoring</button>
+                <button id="settings-btn" class="nav-btn">Settings</button>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hardware Section -->
+            <section id="hardware" class="section active">
+                <div class="card system-info">
+                    <h2>System Information</h2>
+                    <div id="system-details" class="details-grid"></div>
+                </div>
+
+                <div class="card cpu-info">
+                    <h2>CPU Information</h2>
+                    <div id="cpu-details" class="details-grid"></div>
+                    <div class="usage-bar">
+                        <div id="cpu-usage-bar" class="progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="card memory-info">
+                    <h2>Memory Status</h2>
+                    <div id="memory-details" class="details-grid"></div>
+                    <div class="usage-bar">
+                        <div id="memory-usage-bar" class="progress-bar"></div>
+                    </div>
+                </div>
+
+                <div class="card storage-info">
+                    <h2>Storage Devices</h2>
+                    <div id="storage-details" class="storage-grid"></div>
+                </div>
+
+                <div class="card gpu-info">
+                    <h2>GPU Information</h2>
+                    <div id="gpu-details" class="details-grid"></div>
+                </div>
+            </section>
+
+            <!-- Network Section -->
+            <section id="network" class="section">
+                <div class="card network-info">
+                    <h2>Network Status</h2>
+                    <div id="network-details" class="details-grid"></div>
+                </div>
+            </section>
+
+            <!-- Monitoring Section -->
+            <section id="monitoring" class="section">
+                <div class="monitoring-grid">
+                    <div class="card">
+                        <h3>Real-time Usage</h3>
+                        <canvas id="usage-chart"></canvas>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="status-bar">
+                <span id="last-update">Last Updated: Never</span>
+                <button id="refresh-btn" class="action-btn">Refresh All</button>
+                <button id="export-btn" class="action-btn">Export Data</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

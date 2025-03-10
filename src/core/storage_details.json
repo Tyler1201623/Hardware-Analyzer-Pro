@@ -1,0 +1,58 @@
+{
+    "drives": [
+        {
+            "device": "C:\\",
+            "mountpoint": "C:\\",
+            "type": "NTFS",
+            "total": "1860.38 GB",
+            "used": "1589.25 GB",
+            "free": "271.13 GB",
+            "percent_used": "85.4%"
+        },
+        {
+            "device": "D:\\",
+            "mountpoint": "D:\\",
+            "type": "NTFS",
+            "total": "110.97 GB",
+            "used": "0.14 GB",
+            "free": "110.83 GB",
+            "percent_used": "0.1%"
+        },
+        {
+            "device": "E:\\",
+            "mountpoint": "E:\\",
+            "type": "NTFS",
+            "total": "931.51 GB",
+            "used": "674.30 GB",
+            "free": "257.22 GB",
+            "percent_used": "72.4%"
+        },
+        {
+            "device": "F:\\",
+            "mountpoint": "F:\\",
+            "type": "NTFS",
+            "total": "1023.87 GB",
+            "used": "321.31 GB",
+            "free": "702.56 GB",
+            "percent_used": "31.4%"
+        },
+        {
+            "device": "G:\\",
+            "mountpoint": "G:\\",
+            "type": "NTFS",
+            "total": "1023.87 GB",
+            "used": "226.91 GB",
+            "free": "796.96 GB",
+            "percent_used": "22.2%"
+        },
+        {
+            "device": "H:\\",
+            "mountpoint": "H:\\",
+            "type": "NTFS",
+            "total": "1023.87 GB",
+            "used": "136.62 GB",
+            "free": "887.25 GB",
+            "percent_used": "13.3%"
+        }
+    ]
+}

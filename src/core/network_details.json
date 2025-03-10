@@ -1,0 +1,29 @@
+{
+    "interfaces": {
+        "Ethernet": {
+            "ip_address": "192.168.1.142"
+        },
+        "Wi-Fi": {
+            "ip_address": "169.254.64.77"
+        },
+        "Local Area Connection* 9": {
+            "ip_address": "169.254.236.136"
+        },
+        "Local Area Connection* 2": {
+            "ip_address": "169.254.156.202"
+        },
+        "Bluetooth Network Connection 2": {
+            "ip_address": "169.254.70.197"
+        },
+        "Loopback Pseudo-Interface 1": {
+            "ip_address": "127.0.0.1"
+        }
+    },
+    "traffic": {
+        "bytes_sent": "2772.03 MB",
+        "bytes_received": "126731.13 MB",
+        "packets_sent": 45469389,
+        "packets_received": 89283895
+    },
+    "router_ip": "192.168.1.1"
+}
